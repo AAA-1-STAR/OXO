@@ -1,0 +1,12 @@
+{
+  "name": "live-edit-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A self-hosted webpage with real-time editable plain-text content synced to all visitors.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
