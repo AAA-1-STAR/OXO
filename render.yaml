@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: live-edit-page
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    healthCheckPath: "/"
